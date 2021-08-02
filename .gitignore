@@ -1,5 +1,6 @@
 # MacOS and IDE related files
 */*.DS_Store
+.DS_Store
 .idea/
 # npm modules
 **/node_modules/
