@@ -1,0 +1,82 @@
+{
+	"s1": [
+		["Álgebra y Geometría","MAT-060",3,5,"MAT",[],"A"],
+        ["Introducción al Cálculo","MAT-070",3,5,"MAT",[],"A"],
+		["Introducción a la Física","FIS-100",4,6,"FIS",[],"A"],
+		["Introducción a la Ingeniería","IWG-101",2,3,"ING",[],""],
+        ["Programación","IWI-131",3,5,"PC",[],""],
+		["Educación Física I","EFI-100",1,2,"HUM",[],""],
+        ["Inglés 1","HCW-100",2,3,"IN",[],""]
+	],
+	"s2": [
+		["Álgebra Lineal","MAT-061",3,5,"MAT",["MAT-060"],"A"],
+        ["Cálculo de una Variable","MAT-071",4,6,"MAT",["MAT-070"],"A"],
+        ["Física General I","FIS-111",5,8,"FIS",["FIS-100"],"A"],
+        ["Química y Sociedad","QUI-010",3,5,"PC",[],""],
+		["Educación Física II","EFI-101",1,2,"HUM",["EFI-100"],""],
+        ["Inglés 2","HCW-101",2,3,"IN",["HCW-100"],""]
+	],
+	"s3": [
+		["Matemáticas III","MAT-023",4,7,"MAT",["MAT-061","MAT-071"],"A"],
+		["Física General III","FIS-131",4,6,"FIS",["MAT-061","MAT-071", "FIS-111"],"A"],
+        ["Intrumentación Científica","FIS-105",2,3,"FIS",[],""],
+        ["Química Básica","QUI-021",4,6,"PC",["QUI-010"],""],
+		["Deportes","DEW-0",1,2,"HUM",["EFI-101"],""],
+		["Inglés 3","HCW-102",2,3,"IN",["HCW-101"],""]
+	],
+	"s4": [
+		["Matemáticas IV","MAT-024",4,6,"MAT",["MAT-023"],"A"],
+        ["Física General II","FIS-121",4,6,"FIS",["MAT-061","MAT-071","FIS-111"],"A"],
+		["Física Experimental","FIS-200",4,8,"FIS",["FIS-131","FIS-105"],""],
+		["Mecánica Intermedia I","FIS-210",4,8,"FIS",["MAT-023","FIS-111"],""],
+        ["Inglés 4","HCW-103",2,3,"IN",["HCW-102"],""]
+	],
+	"s5": [
+        ["Análisis Numérico","MAT-270",4,7,"MAT",["MAT-024"],"A"],
+        ["Física General IV-A","FIS-141",4,6,"FIS",["FIS-121","FIS-131"],"A"],
+		["Fundamentos de Electrónica","FIS-190",4,6,"FIS",["FIS-121","FIS-200"],""],
+		["Programación Avanzada para Ciencias","INF-230",4,6,"PC",["IWI-131"],"A"],
+		["Administración de Empresas","ICN-262",3,5,"PC",[],"A"]
+	],
+	"s6": [
+		["Fundamentos de Termodinámica Aplicada","ICF-130",4,6,"ING",["MAT-023","FIS-131"],"A"],
+		["Campos Electromagnéticos I","FIS-220",4,7,"FIS",["FIS-121","FIS-131","MAT-024"],""],
+        ["Física Cuántica I","FIS-242",4,7,"FIS",["FIS-210"],""],
+        ["Métodos de la Física Matemática","FIS-245",4,7,"FIS",["MAT-024"],""]
+	],
+	"s7": [
+		["Información y Matemática Financiera","ICN-270",3,5,"PC",[],"A"],
+        ["Mecánica de Fluidos","ICF-140",4,6,"ING",["FIS-210"],"A"],
+		["Espectropía Moderna y Óptica","FIS-223",4,7,"FIS",["FIS-220","FIS-141"],""],
+        ["Física Computacional","FIS-205",4,6,"FIS",["MAT-270"],""],
+        ["Termodinámica y Mecánica Estadística","FIS-230",4,7,"FIS",["MAT-023","FIS-141"],""]
+	],
+	"s8": [
+		["Instrumentación en Astroingeniería","ICF-210",4,6,"ING",["FIS-223"],"A"],
+        ["Procesos de Transferencia de Materia y Energía","ICF-230",4,6,"ING",["ICF-140"],"A"],
+        ["Taller de Modelamiento y Simulación de Sistemas Complejos","ICF-280",4,6,"ING",["FIS-205","FIS-220","FIS-230"],"A"],
+		["Humanista III","HCW-104",2,3,"HUM",[],""],
+		["Evaluación de Proyectos","ICN-336",3,5,"PC",[],""]
+	],
+	"s9": [
+		["Fundamentos de Energías Renovables","ICF-260",4,6,"ING",["ICF-140"],"A"],
+        ["Fundamentos de Tenologías Cuánticas","ICF-240",4,6,"ING",["FIS-230","FIS-242","FIS-223"],"A"],
+        ["Gestión de la Innovación Tecnológica","ICF-250",4,6,"ING",["ICN-270"],"A"],
+        ["Introducción a la Física de la Materia Condensada","FIS-251",4,7,"FIS",["FIS-242"],"A"],
+        ["Optimización","INF-292",3,5,"PC",["IWI-131","MAT-061","MAT-071"],"A"]		
+	],
+	"s10": [
+		["Emprendimiento","ICF-251",4,6,"ING",["ICF-250"],"A"],
+		["Linea Formativa Principal","ICF-209",4,6,"ING",[],"A"],
+        ["Seminario de Título","ICF-298",2,3,"ING",[],"A"],
+		["Electivo o Linea Formativa","ICF-211",4,6,"ING",[],"A"],
+		["Electivo o Linea Formativa","ICF-212",4,6,"ING",[],"A"]
+	],
+	"s11": [
+		["Memoria de Título","ICF-299",5,9,"ING",["ICF-298"],"A"],
+		["Linea Formativa Principal","ICF-213",4,6,"ING",[],"A"],
+		["Electivo o Linea Formativa","ICF-214",4,6,"ING",[],"A"]
+	]
+    
+    
+}
