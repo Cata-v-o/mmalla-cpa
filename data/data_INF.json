@@ -43,7 +43,7 @@
 		["Sistemas Operativos","INF-246",3,5,"TIC",["INF-245"],"A"],
 		["Ingeniería, Informática y Sociedad","INF-276",3,5,"TIN",["INF-270"],"A"],
 		["Algoritmos y Complejidad","INF-221",3,5,"FI",["INF-152","INF-253"],"A"],
-		["Optimización","INF-292",3,5,"SD",["MAT-023"],"A"],
+		["Optimización","INF-292",3,5,"SD",["IWI-131", "MAT-023"],"A"],
 		["Libre IV","INF-4",1,2,"HUM",[],"A"]
 	],
 	"s7": [
