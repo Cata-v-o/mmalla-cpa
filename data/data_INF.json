@@ -58,7 +58,7 @@
 		["Diseño Interfaces Usuarias","INF-322",3,5,"IS",["INF-225"],"P"],
 		["Sistemas Distribuidos","INF-343",3,5,"TIC",["INF-256"],"A"],
 		["Electivo Informática I","INF-301",3,5,"ELEC",[],"P"],
-		["Inteligencia Artificial","INF-295",3,5,"AN",["INF-292","INF-221"],"A"],
+		["Inteligencia Artificial","INF-295",3,5,"AN",["INF-292","INF-134"],"A"],
 		["Sistemas de Gestión","INF-266",3,5,"SD",["INF-276"],"P"],
 		["Libre VI","INF-6",1,2,"HUM",[],"A"]
 	],
