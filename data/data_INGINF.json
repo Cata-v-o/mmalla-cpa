@@ -1,64 +1,80 @@
 {
     "s1": [
-        ["Fundamento de la Matemática","MAT100-B","1","6","PC",[],"A"],
-        ["Introducción a la Ingeniería","EIN412-B","1","5","PC",[],"A"],
-        ["Programación","EIN413-B","1","5","PC",[],""],
-        ["Educación Física I","EFI100-T","1",2,"HUM",[],"I"],
-        ["Competencias claves para el desarrollo personal","HRW101-B","1","3","HUM",[],"I"],
-        ["Inglés I","HCW100-T","1",2,"PC",[],"A"]
+        ["Desarrollo Personal","DP-011","3","0","CC",[],"I"],
+        ["Lectura Crítica","LC-012","3","0","CC",[],"I"],
+        ["Física General","FG-013","4","0","CC",[],"I"],
+        ["Algoritmo y Programación","AP-014","4","0","CC",[],"I"],
+        ["Desarrollo del Pensamiento Lógico","DPL-015","3","0","CC",[],"I"],
+        ["Introduccion al Análisis Matemático","IAM-016","4","0","CC",[],"I"]
     ],
     "s2": [
-        ["Introducción al calculo","MAT001_B","1","6","PC",["MAT100-B"],"A"],
-        ["Química y Sociedad","QMA001-B","1","5","PC",[],"A"],
-        ["Ciencias de la Ingeniería I: Estructura de Datos","EIN423-B","1","6","FI",["EIN413-B"],"P"],
-        ["Educación Física II","EFI101_T","1",2,"HUM",["EFI100-T"],"P"],
-        ["Competencias para el desarrollo profesional","HRW102-B","1","3","HUM",["HRW101-B"],"P"],
-        ["Inglés II","HCW101-T","1",2,"PC",["HCW100-T"],"A"]
+        ["Ética, Convivencia Humana y Ciudadanía","ECHC-021","3","0","CC",[],"P"],
+        ["Sociedad, Cultura y Ecologíca","SCE-022","3","0","CC",[],"P"],
+        ["Cultura Investigativa","CI-023","3","0","CC",[],"P"],
+        ["Estructura de Datos","ED-024","4","0","CC",["AP-014"],"P"],
+        ["Estadística General","EG-025","4","0","CC",[],"P"],
+        ["Análisis Matemático","AM-026","4","0","CC",["IAM-016"],"P"]
     ],
     "s3": [
-        ["Matemática de Ingeniería","MAT021B","1","6","PC",["MAT001_B"],"A"],
-        ["Introducción a la Física","FIS009B","1","5","PC",[],"A"],
-        ["Ciencias de la Ingeniería II: Lenguajes de Programación","EIN080B","1","5","FI",["EIN423-B"],"I"],
-        ["Arquitectura y Organización de Computadores","EIN079B","1","6","FI",[],"A"],
-        ["Bases de datos","EIN-009B","1","6","IS",["EIN423-B"],"I"],
-        ["Inglés III","HCW102-T","1",2,"PC",["HCW101-T"],"A"]
+        ["Geometria Analítica","GA-031","4","0","CC",["AM-026"],"A"],
+        ["Paradigmas de Lenguajes de Programación","PLP-032","4","0","CC",["ED-024"],"A"],
+        ["Estrategias Algorítmicas","EA-033","4","0","CC",[],"A"],
+        ["Matemática Discreta","MD-034","4","0","CC",[],"A"],
+        ["Física para Ciencia de la Computación","FCC-035","3","0","IS",["FG-013"],"I"],
+        ["Análisis Númerico","AN-036","3","0","CC",["AM-026"],"A"]
     ],
     "s4": [
-        ["Administración de Empresas","HMN295T","1","5","IND",[],"A"],
-        ["Física Mecánica","FIS007B","1","5","PC",["MAT100-B","FIS009B"],"A"],
-        ["Ciencias de la Ingeniería III: Análisis y Diseño de Software","EIN081B","1","6","FI",[],"P"],
-        ["Sistemas Operativos","EIN083B","1","5","IS",["EIN079B"],"P"],
-        ["Taller Lenguaje de Programación","EIN082B","1","5","IS",["EIN080B","EIN-009B"],"P"],
-        ["Estadística","MAT006B","1","4","PC",["MAT021B"],""]
+        ["Computación Gráfica","CG-041","4","0","CC",["ED-024","GA-031"],"A"],
+        ["Organización de Archivos","OA-042","3","0","CC",["ED-024"],"A"],
+        ["Algoritmo y Complejidad","AC-043","4","0","CC",["EA-033","MD-034"],"A"],
+        ["Lenguajes Formales y Autómatas","LFA-044","4","0","CC",["MD-034"],"A"],
+        ["Electrónica para Computación","EC-045","4","0","CC",["FCC-035"],"A"],
+        ["Innovación y Emprendimiento","IE-046","3","0","CC",[],"A"]
     ],
     "s5": [
-        ["Introducción a las Finanzas","HMN292T","1","3","IND",["HMN295T"],"A"],
-        ["Gestión de la Innovación","EIN088B","1","3","IND",[],"I"],
-        ["Sistemas integrados de Gestión","EIN084B","1","4","IND",[],"I"],
-        ["Redes de Computadores","EIN085B","1","6","FI",["EIN083B"],"I"],
-        ["Ingeniería de Software","EIN086B","1","6","IS",["EIN082B"],"I"],
-        ["Ciencias de Datos","EIN087B","1","6","FI",["MAT006B"],"I"]
+        ["Base de Datos I","BD1-051","4","0","CC",["OA-042"],"A"],
+        ["Ingeniería de Software I","IS1-052","4","0","CC",["PLP-032"],"A"],
+        ["Inteligencia Artificial I","IA1-053","4","0","CC",["AC-043"],"A"],
+        ["Compiladores","C-054","4","0","CC",["LFA-044"],"A"],
+        ["Técnicas Digitales para Computación","TDC-055","4","0","CC",["EC-045"],"A"],
+        ["Metodología de la Investigación Científica","MIC-056","2","0","CC",[],"A"]
     ],
     "s6": [
-        ["Responsabilidad Social Empresarial y Ética Laboral","HMN293T","1","3","TIN",[],"A"],
-        ["Gestión del Emprendimiento","EIN089B","1","3","TIN",["HMN292T","EIN088B"],"P"],
-        ["Gestión de Proyectos","EIN093B","1","5","IND",[],"A"],
-        ["Taller de Administración de Sistemas","EIN090B","1","6","IS",["EIN085B"],"P"],
-        ["Inteligencia de Negocios","EIN091B","1","6","IND",["EIN-009B","EIN086B"],"P"],
-        ["Visualización","EIN092B","1","6","FI",["EIN087B"],"P"]
+        ["Computación Gráfica Avanzada","CGA-061","4","0","CC",["CG-041"],"A"],
+        ["Base de Datos II","BD2-062","4","0","CC",["BD1-051"],"A"],
+        ["Ingeniería de Software II","IS2-063","4","0","CC",["IS1-052"],"A"],
+        ["Ingeniería Artificial II","IA2-064","2","0","CC",["IA1-053"],"A"],
+        ["Comunicación de Datos","CD-065","4","0","CC",["TDC-055"],"A"],
+        ["Arquitectura y Organización de Computadoras","AOC-066","4","0","CC",["TDC-055"],"A"]
     ],
     "s7": [
-        ["Electivo I","EIN095B","1","6","ELEC",[],""],
-        ["Electivo II","EIN096B","1","6","ELEC",[],"A"],
-        ["Electivo III","EIN097B","1","6","ELEC",[],"A"],
-        ["Proyecto de Software I","EIN098B","1","5","ELEC",["EIN093B","EIN088B"],"I"],
-        ["Seminario de Título","EIN099B","1","3","ELEC",[],"I"]
+        ["Base de Datos Avanzada","BDA-071","4","0","CC",["BD2-062"],"A"],
+        ["Desarrollo de Software","DS-072","4","0","CC",["IS2-063"],"A"],
+        ["Percepción y Visión por Computadora","PVC-073","4","0","CC",["IA2-064"],"A"],
+        ["Redes de Computadoras I","RC-074","4","0","CC",["CD-065"],"A"],
+        ["Sistema Operativos I","SO1-075","4","0","CC",["AOC-066"],"A"],
+        ["Gestión de Proyectos Informáticos","SO1-075","2","0","CC",["IS2-063"],"A"]
     ],
     "s8": [
-        ["Electivo IV","EIN100B","1","6","ELEC",[],"A"],
-        ["Electivo V","EIN101B","1","6","ELEC",[],"A"],
-        ["Electivo VI","EIN102B","1","6","ELEC",[],"A"],
-        ["Proyecto de Software II","EIN103B","1","5","ELEC",["EIN098B"],"P"],
-        ["Proyecto de Título","EIN104B","1","6","ELEC",[],"P"]
+        ["Robótica","R-081","4","0","CC",["IA2-064"],"A"],
+        ["Redes de Computadoras II","RC2-082","4","0","CC",["RC-074"],"A"],
+        ["Sistema Operativos II","SO2-083","4","0","CC",["SO1-075"],"A"],
+        ["Prácticas Pre-Profesionales","PPP-084","10","0","CC",["CGA-061","BD2-062","IS2-063","IA2-064","CD-065","AOC-066"],"A"]
+    ],
+    "s9": [
+        ["Interacción Humano Computador","IHC-091","4","0","CC",["IS2-063"],"A"],
+        ["Tópicos en Base de Datos","TBD-092","4","0","CC",["BD2-062"],"A"],
+        ["Tópicos en Ing. de Software","TIS-093","4","0","CC",["IS2-063"],"A"],
+        ["Ing. de Software Avanzada","ISA-094","4","0","CC",["IS2-063"],"A"],
+        ["Seguridad Informática","SI-095","4","0","CC",["RC2-082"],"A"],
+        ["Proyecto de Tesis","PT-096","2","0","CC",[],"A"]
+    ],
+    "s10": [
+        ["Tópicos en Tecnologías Inmersiva","TTI-101","4","0","CC",["IHC-091"],"A"],
+        ["Sistema de Información","SI-102","3","0","CC",["ISA-094","BDA-071"],"A"],
+        ["Ética para Profesionales en Informática","EPI-103","3","0","CC",["ECHC-021"],"A"],
+        ["Proyecto de Competencia","PC-104","2","0","CC",["EIN098B"],"A"],
+        ["Proyecto Integrador","PI-105","4","0","CC",["RC2-082","SO1-075","IE-046","DS-072"],"A"],
+        ["Tesis","T-106","1","0","CC",["PT-096"],"A"]
     ]
 }
