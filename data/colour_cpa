@@ -1,0 +1,11 @@
+{
+	"AD":["#92D050","Administración"],
+	"CIAPOL":["#813FA0","Formación Política"],
+	"PL":["#00838F","Política"],
+	"Dr":["#C54B73","Derecho"],
+	"CFM":["#1B57C9","Matemáticos"],
+	"RR":["#BFBFBF","Integradores"],
+	"CE":["#FF7B7B","Complementarios y electivos"],
+	"IG":["#00B0F0","Inglés"],
+	"PR":["#AEA3C2","Prácticas"]
+}
